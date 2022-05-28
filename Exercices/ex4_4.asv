@@ -1,0 +1,25 @@
+%% ex4_4
+clear all;
+%% 1. Equations
+clear all;clc;
+n = 10;
+sigma = 10;
+b = 8/3;
+r = 28;
+dt = 0.01;
+X = zeros(n,1);
+Y = zeros(n,1);
+Z = zeros(n,1);
+
+X(1) = 1; Y(1) = 2; Z(1) = 3;
+for i=1:n
+    X(i+1) = X(i) + sigma(Y(i)-X(i))*dt;
+    Y(i+1) = Y(i) + [X(i)(r-Z(i))-Y(i)]*dt;
+    zi+1 = zi + (xiyi − bzi)*dt
+
+
+
+
+
+
+
