@@ -1,0 +1,1 @@
+find(element) : return a vector of indices where the element is found 
